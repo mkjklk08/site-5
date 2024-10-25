@@ -1,0 +1,87 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color:  hsl(30, 38%, 92%);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+.container-1 img{
+    width: 270px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.container-2 {
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px 30px;
+    width: 200px;
+    height: 345px;
+    margin-left: 4px;
+}
+
+.container-2 .header p {
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container-2 .header h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 35px;
+    width: 200px;
+}
+
+.container-2 .info p {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container-2 .price {
+    display: grid;
+    grid-template-columns: 130px 100px;
+}
+
+.container-2 .price h1 {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+
+.container-2 .price p {
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+    text-decoration: line-through;
+    margin-top: 33px;
+}
+
+.container-2 .button_add button {
+    padding: 13px 65px 13px 75px;
+    margin-bottom: 0px;
+    background-color: hsl(158, 36%, 37%);
+    border: 1px solid hsl(158, 36%, 37%);
+    border-radius: 7px;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+
+.container-2 .button_add img {
+    width: 13px;
+    position: absolute;
+    top: 363px;
+    left: 835px;
+    z-index: 1;
+}
